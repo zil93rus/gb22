@@ -86,10 +86,8 @@ for el in cash:
     else:
         print(f'{tmp_num[0]} руб {tmp_num[-1]} коп')
 
-
 higher = sorted(cash)
 lower = sorted(cash, reverse=True)
 print(f'Цены отсортированные по возрастанию: {higher}')
 print(f'Цены отсортированные по убыванию: {lower}')
 print(f'Цены пяти самых дорогих товаров: {lower[:5]}')
-
