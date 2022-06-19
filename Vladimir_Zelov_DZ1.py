@@ -1,5 +1,4 @@
 # Задание 1
-
 duration = 53
 dur_d = duration // (3600 * 24)
 dur_h = duration // 3600 % 24
@@ -15,8 +14,8 @@ elif dur_d == 0 and dur_h == 0 and dur_m != 0:
 else:
     print(f'{dur_s} сек')
 
-# Задание 2
 
+# Задание 2
 # Вариант 1
 total = 0
 for i in [k ** 3 for k in range(1, 1001, 2)]:
@@ -29,6 +28,7 @@ for i in [k ** 3 + 17 for k in range(1, 1001, 2)]:
     if sum([int(j) for j in str(i)]) % 7 == 0:
         total += i
 print(total)
+
 
 # Вариант 2
 total = 0
@@ -55,8 +55,8 @@ for i in list(range(1, 1001, 2)):
         total += temp_cube
 print(total)
 
-# Задание 3
 
+# Задание 3
 for i in range(1, 101):
     if i % 10 == 1 and i not in (11, 12, 13, 14):
         print(f'{i} процент')
